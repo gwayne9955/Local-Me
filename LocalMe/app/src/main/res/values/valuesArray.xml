@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="range_array">
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>20</item>
+    <item>25</item>
+    <item>30</item>
+    <item>40</item>
+    <item>50</item>
+</string-array>
+
+    <string-array name="date_array">
+    <item>Today</item>
+    <item>Tomorrow</item>
+    <item>This Week</item>
+    <item>This Weekend</item>
+    <item>Next Week</item>
+    <item>This Month</item>
+    <item>Next Month</item>
+</string-array>
+
+    <string-array name="price_array">
+        <item>Any</item>
+        <item>Free</item>
+        <item>Paid</item>
+    </string-array>
+
+    <string-array name="category_array">
+        <item>Any</item>
+        <item>Music</item>
+        <item>Business &amp; Professional</item>
+        <item>Community &amp; Culture</item>
+        <item>Performing &amp; Visual Arts</item>
+        <item>Film, Media &amp; Entertainment</item>
+        <item>Sports &amp; Fitness</item>
+        <item>Health &amp; Wellness</item>
+        <item>Science &amp; Technology</item>
+        <item>Travel &amp; Outdoor</item>
+        <item>Charity &amp; Causes</item>
+        <item>Religion &amp; Spirituality</item>
+        <item>Family &amp; Education</item>
+        <item>Seasonal &amp; Holiday</item>
+        <item>Government &amp; Politics</item>
+        <item>Fashion &amp; Beauty</item>
+        <item>Home &amp; Lifestyle</item>
+        <item>Auto, Boat &amp; Air</item>
+        <item>Hobbies &amp; Special Interest</item>
+        <item>School Activities</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="sortBy_array">
+        <item>Distance</item>
+        <item>Date</item>
+        <item>Best</item>
+    </string-array>
+
+</resources>

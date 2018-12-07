@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Events Near You</string>
+    <string name="title_events">Events Near You</string>
+    <string name="title_map">Map</string>
+    <string name="title_profile">Profile</string>
+    <string name="start_time">Start Time:</string>
+    <string name="end_time">\nEnd Time:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_map_fragment">Hello map fragment</string>
+    <string name="hello_profile_fragment">Hello profile fragment</string>
+
+    <string name="ACCESS_TOKEN">R5K2CPSCKU3Y6QFK6HGP</string>
+    <string name="OAUTH_TOKEN">RBQCLUEDKR3AKV4QNGX6</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

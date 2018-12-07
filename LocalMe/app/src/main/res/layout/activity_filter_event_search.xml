@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".FilterEventSearchActivity"
+        android:id="@+id/coordinatorLayout"
+        tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+            android:text="@string/filter_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_range_text_view"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toStartOf="@+id/range_spinner"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="19dp"/>
+
+    <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/range_spinner"
+            android:entries="@array/range_array"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toEndOf="@+id/filter_range_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+    <TextView
+            android:text="@string/filter_keyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_keyword_text_view"
+            android:layout_marginTop="47dp"
+            app:layout_constraintEnd_toStartOf="@+id/keyword_text"
+            android:layout_marginBottom="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/filter_date_text_view"
+            app:layout_constraintTop_toTopOf="@+id/filter_range_text_view"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="82dp"/>
+
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/keyword_text"
+            android:hint="@string/example_keyword"
+            android:layout_marginTop="79dp"
+            app:layout_constraintStart_toEndOf="@+id/filter_keyword_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="79dp"
+            app:layout_constraintBottom_toTopOf="@+id/price_spinner"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+    <TextView
+            android:text="@string/filter_dateKeyword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_date_text_view"
+            android:layout_marginTop="148dp"
+            app:layout_constraintEnd_toStartOf="@+id/date_spinner"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="107dp"/>
+
+    <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/date_spinner"
+            android:entries="@array/date_array"
+            android:layout_marginTop="144dp"
+            app:layout_constraintStart_toEndOf="@+id/filter_date_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+    <TextView
+            android:text="@string/filter_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_price_text_view"
+            android:layout_marginTop="36dp"
+            app:layout_constraintTop_toBottomOf="@+id/filter_date_text_view"
+            app:layout_constraintEnd_toStartOf="@+id/price_spinner"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="104dp"/>
+
+    <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/price_spinner"
+            android:entries="@array/price_array"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/date_spinner"
+            app:layout_constraintStart_toEndOf="@+id/filter_price_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+    <TextView
+            android:text="@string/filter_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_category_text_view"
+            app:layout_constraintEnd_toStartOf="@+id/category_spinner"
+            android:layout_marginBottom="36dp"
+            app:layout_constraintBottom_toTopOf="@+id/filter_sortby_text_view"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="80dp"/>
+
+    <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/category_spinner"
+            android:entries="@array/category_array"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/price_spinner"
+            app:layout_constraintStart_toEndOf="@+id/filter_category_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+    <TextView
+            android:text="@string/filter_sortBy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_sortby_text_view"
+            app:layout_constraintEnd_toStartOf="@+id/sortby_spinner"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/filter_adult_text_view"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="91dp"/>
+
+    <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sortby_spinner"
+            android:entries="@array/sortBy_array"
+            android:layout_marginTop="30dp"
+            app:layout_constraintTop_toBottomOf="@+id/category_spinner"
+            app:layout_constraintStart_toEndOf="@+id/filter_sortby_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp"/>
+
+    <TextView
+            android:text="@string/filter_showAdultEvents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_adult_text_view"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/sortby_spinner"/>
+
+    <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_adult_switch"
+            android:checked="false"
+            android:layout_marginTop="24dp"
+            app:layout_constraintTop_toBottomOf="@+id/sortby_spinner"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+            android:text="@string/filter_cancel"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_cancel_button"
+            android:onClick="filterCancelOnClick"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="48dp"
+            app:layout_constraintBottom_toTopOf="@+id/filter_reset_button"
+            app:layout_constraintEnd_toStartOf="@+id/filter_apply_button" android:layout_marginEnd="35dp"
+            android:layout_marginTop="14dp" app:layout_constraintTop_toBottomOf="@+id/filter_adult_text_view"/>
+
+    <Button
+            android:text="@string/filter_apply"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_apply_button"
+            android:onClick="filterApplyOnClick"
+            app:layout_constraintStart_toEndOf="@+id/filter_adult_text_view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/filter_reset_button"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="48dp" android:layout_marginTop="6dp"
+            app:layout_constraintTop_toBottomOf="@+id/filter_adult_switch"/>
+
+    <Button
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/filter_reset_button"
+            android:text="@string/filter_reset"
+            android:onClick="filterResetOnClick"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="28dp" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintTop_toBottomOf="@+id/filter_cancel_button"/>
+
+</android.support.constraint.ConstraintLayout>

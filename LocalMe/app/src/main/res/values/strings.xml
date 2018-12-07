@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">LocalMe</string>
+    <string name="title_events">Events</string>
+    <string name="title_map">Map</string>
+    <string name="title_profile">Profile</string>
+    <string name="start_time">Start Time:</string>
+    <string name="end_time">\nEnd Time:</string>
+    <string name="hello_map_fragment">Hello map fragment</string>
+    <string name="hello_profile_fragment">Hello profile fragment</string>
+    <string name="ACCESS_TOKEN">R5K2CPSCKU3Y6QFK6HGP</string>
+    <string name="OAUTH_TOKEN">RBQCLUEDKR3AKV4QNGX6</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">LocalMe</string>
+    <string name="nav_header_subtitle">Your Source for Local Events</string>
+    <string name="nav_header_version">Version 1.0</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_filter_event_search">Filter Event Search</string>
+    <string name="action_event_detail_share_event">Share Event</string>
+    <string name="action_event_detail_open_in_browser">Open Event In Browser</string>
+    <string name="title_activity_filter_event_search">Filter Event Search</string>
+    <string name="title_activity_event_details">Event Details</string>
+    <string name="filter_range">Search Radius (mi)</string>
+    <string name="filter_keyword">Keyword</string>
+    <string name="filter_dateKeyword">Date</string>
+    <string name="filter_price">Price</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_sortBy">Sort By</string>
+    <string name="filter_showAdultEvents">Show Adult Events (18+)</string>
+    <string name="example_keyword">ex. &quot;Live Music&quot;</string>
+    <string name="filter_cancel">Cancel</string>
+    <string name="filter_apply">Apply</string>
+    <string name="filter_reset">Reset</string>
+    <string name="nav_search_filters">Search Filters</string>
+    <string name="nav_settings">Settings</string>
+    <string name="event_detail_notify_string">Notify Me</string>
+    <string name="event_detail_date_and_time">Date And Time:</string>
+    <string name="event_detail_location">Location:</string>
+    <string name="event_detail_description">Event Description:</string>
+    <string name="event_detail_get_directions">Get Directions</string>
+    <string name="loading_fragment_message">Localme is Getting Your Events! Please wait...</string>
+    <string name="no_events_fragment_message">Uh oh...There are no events with the current filters</string>
+    <string name="no_events_fragment_message2">Please edit the search filters and try again</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_map_zoom">Map Zoom Amount</string>
+    <string name="pref_title_notification_time">Notification Time Before Event</string>
+    <string-array name="pref_map_zoom_titles">
+        <item>Normal</item>
+        <item>Zoomed</item>
+        <item>Distant</item>
+    </string-array>
+    <string-array name="pref_map_zoom_values">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="pref_notification_time_titles">
+        <item>1 Minute</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+        <item>30 Minutes</item>
+        <item>45 Minutes</item>
+        <item>1 Hour</item>
+        <item>2 Hours</item>
+        <item>3 Hours</item>
+        <item>4 Hours</item>
+    </string-array>
+    <string-array name="pref_notification_time_values">
+        <item>60000</item>
+        <item>300000</item>
+        <item>600000</item>
+        <item>900000</item>
+        <item>1800000</item>
+        <item>2700000</item>
+        <item>3600000</item>
+        <item>7200000</item>
+        <item>10800000</item>
+        <item>14400000</item>
+    </string-array>
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="multi_select_list_preference_default_value"/>
+    <string name="pref_header_notifications">Notifications</string>
+    <string name="pref_title_new_message_notifications">Event Notifications</string>
+    <string name="pref_title_ringtone">Notification Sound</string>
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

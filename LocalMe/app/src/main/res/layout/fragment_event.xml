@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/event_name"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?attr/textAppearanceListItem"/>
+
+    <!--<android.support.constraint.ConstraintLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent" android:id="@+id/linearLayout"-->
+    <!--app:layout_constraintStart_toStartOf="@+id/event_start"-->
+    <!--app:layout_constraintEnd_toStartOf="@+id/event_start">-->
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/linearLayout3">
+
+        <ImageView
+                android:layout_width="122dp"
+                android:layout_height="56dp"
+                app:srcCompat="@android:color/transparent"
+                android:id="@+id/event_list_image_view" app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/event_start"/>
+        <TextView
+                android:id="@+id/event_start"
+                android:layout_width="247dp"
+                android:layout_height="19dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/event_list_image_view"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="1dp" app:layout_constraintBottom_toTopOf="@+id/event_description"/>
+        <TextView
+                android:id="@+id/event_description"
+                android:layout_width="247dp"
+                android:layout_height="58dp"
+                android:textAppearance="?attr/textAppearanceListItem"
+                app:layout_constraintStart_toEndOf="@+id/event_list_image_view"
+                android:layout_marginEnd="1dp"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/event_start"/>
+    </android.support.constraint.ConstraintLayout>
+    <!--</android.support.constraint.ConstraintLayout>-->
+
+    <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+</LinearLayout>

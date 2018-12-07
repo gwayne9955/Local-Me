@@ -1,7 +1,7 @@
 # Local-Me
 An Android app to find events near you. Perfect for the weekend go-getter or travelers in a new city
 
-# [App Demo](https://youtu.be/Stoas35rbj0)
+<a href="https://youtu.be/Stoas35rbj0" target="_blank">Click Here For App Demo</a>
 
 <img src="Screenshots/localme.png" height="30%" width="30%" alt="App Icon">
 

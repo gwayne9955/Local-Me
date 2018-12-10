@@ -103,8 +103,8 @@ class EventDetailActivity : AppCompatActivity() {
         val timeThreshold = PreferenceManager.getDefaultSharedPreferences(this).getString("notification_time", "")!!.toInt()
 
         if (PreferenceManager.getDefaultSharedPreferences(this).getBoolean("notifications_new_message", true)) {
-            NotificationUtils().setNotification(Calendar.getInstance().timeInMillis + 5000, this, event)
-//            NotificationUtils().setNotification(event.start.time.time - timeThreshold.toLong(), activity as EventDetailActivity, event)
+//             NotificationUtils().setNotification(Calendar.getInstance().timeInMillis + 5000, this, event)
+            NotificationUtils().setNotification(event.start.time.time - timeThreshold.toLong(), this, event)
 
             val t = Toast.makeText(
                 this,
